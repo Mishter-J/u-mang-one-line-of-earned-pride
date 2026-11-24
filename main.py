@@ -3,7 +3,7 @@
 
 Writes a single quiet, earned moment of pride to /output/entry.txt:
 a janitor who buffed the school hall floor for two hours, then stands
-in the doorway watching the kids slide across it in their socks.
+in the doorway watching his work become the kids' slide.
 
 Deterministic: no input, no network, no clock, no randomness. The line
 is embedded below and written byte-identical on every run.
@@ -13,8 +13,8 @@ import os
 
 LINE = (
     "The janitor buffed the hall floor for 2 hours until it caught "
-    "the morning light, then stood in the doorway and watched the kids "
-    "slide across it in their socks."
+    "the morning light, then stood in the doorway watching his work "
+    "become the kids' slide."
 )
 
 
